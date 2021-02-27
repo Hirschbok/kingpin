@@ -1,17 +1,19 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "iSi",
-    "iSi",
-    " i "
+    "  I",
+    " G ",
+    "N  "
   ],
   "key": {
-    "i": {
+    "I": {
       "item": "minecraft:iron_ingot"
     },
-    "S": {
-      "item": "minecraft:sugar"
-    }
+    "G": {
+      "item": "minecraft:glass_pane"
+    },
+    "N": {
+      "item": "minecraft:iron_nugget"
   },
   "result":
   {
