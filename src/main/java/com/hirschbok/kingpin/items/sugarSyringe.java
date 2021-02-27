@@ -4,7 +4,7 @@ import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 
 public class sugarSyringe extends Item {
-
+    //wack ass no caps rule
     public sugarSyringe() {
 
         super(new Item.Properties().group(ItemGroup.FOOD));
