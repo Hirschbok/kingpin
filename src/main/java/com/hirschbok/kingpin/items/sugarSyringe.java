@@ -3,9 +3,9 @@ package com.hirschbok.kingpin.items;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 
-public class syringe extends Item {
+public class sugarSyringe extends Item {
 
-    public syringe() {
+    public sugarSyringe() {
 
         super(new Item.Properties().group(ItemGroup.FOOD));
     }

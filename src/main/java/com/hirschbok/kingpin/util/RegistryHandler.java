@@ -1,5 +1,6 @@
 package com.hirschbok.kingpin.util;
 
+import com.hirschbok.kingpin.items.sugarSyringe;
 import com.hirschbok.kingpin.items.syringe;
 import com.hirschbok.kingpin.kingpin;
 import net.minecraft.item.Item;
@@ -15,5 +16,6 @@ public class RegistryHandler {
         ITEMS.register(FMLJavaModLoadingContext.get().getModEventBus());
     }
     public static final RegistryObject<Item> SYRINGE = ITEMS.register("syringe", syringe::new);
+    public static final RegistryObject<Item> sugarSYRINGE = ITEMS.register("sugarsyringe", sugarSyringe::new);
 }
 
