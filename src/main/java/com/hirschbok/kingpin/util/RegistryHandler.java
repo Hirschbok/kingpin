@@ -15,5 +15,6 @@ public class RegistryHandler {
         ITEMS.register(FMLJavaModLoadingContext.get().getModEventBus());
     }
     public static final RegistryObject<Item> SYRINGE = ITEMS.register("syringe", syringe::new);
+     public static final RegistryObject<Item> POPPYRESIN = ITEMS.register("poppyresin", poppyresin::new);
 }
 
